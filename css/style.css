@@ -44,8 +44,6 @@ section {
     height: 45px;
 }
 
-
-
 /* debug rules */
 [class*="col-"] {
     background-color: blue;
@@ -53,7 +51,7 @@ section {
     height: 50px;
 }
 
-.ms_top_bar [class*="col-"] {
+.ms_top_bar [class*="col-"], .ms_foot_bottom .col-3 {
     height: 20px;
 }
 
