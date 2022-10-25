@@ -2,7 +2,15 @@
 section {
     width: 100%;
     /* debug */
-    height: 250px;
+    height: 500px;
+}
+
+.container {
+    height: 100%;
+}
+
+.ms_hero .row {
+    height: 100%;
 }
 
 .ms_color_1abc9c {
@@ -39,4 +47,48 @@ section {
 
 .ms_foot_bottom {
     height: 45px;
+}
+
+
+
+/* debug rules */
+[class*="col-"] {
+    background-color: blue;
+    min-width: 100px;
+    height: 50px;
+}
+
+.ms_top_bar [class*="col-"] {
+    height: 20px;
+}
+
+.ms_hero .col-3 {
+    height: 200px;
+}
+
+/* responsive rules */
+@media screen and (max-width: 576px) {
+    
+    /* header */
+
+    /* top bar */
+    .ms_top_bar .col-3 {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 577px) {
+    
+    /* header */
+
+    /* top bar */
+    .ms_top_bar .col-1 {
+        display: none;
+    }
+
+    .ms_top_bar .col-3 {
+        display: block;
+    }
+
 }
