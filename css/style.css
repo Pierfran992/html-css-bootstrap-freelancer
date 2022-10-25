@@ -1,8 +1,6 @@
 /* general rules */
 section {
     width: 100%;
-    /* debug */
-    height: 500px;
 }
 
 .container {
@@ -63,6 +61,10 @@ section {
 }
 
 .ms_hero .col-3 {
+    height: 200px;
+}
+
+.ms_slot_img {
     height: 200px;
 }
 
