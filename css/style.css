@@ -1,13 +1,10 @@
 /* general rules */
+
 section {
     width: 100%;
 }
 
 .container {
-    height: 100%;
-}
-
-.ms_hero .row {
     height: 100%;
 }
 
@@ -65,6 +62,11 @@ section {
 }
 
 .ms_slot_img {
+    height: 200px;
+    background-color: blue;
+}
+
+.ms_slot_text {
     height: 200px;
 }
 
