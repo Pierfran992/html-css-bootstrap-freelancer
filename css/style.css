@@ -4,6 +4,10 @@ section {
     width: 100%;
 }
 
+header, footer, .ms_about {
+    color: #fff;
+}
+
 .container {
     height: 100%;
 }
@@ -37,12 +41,22 @@ section {
 
 /* footer rules */
 .ms_foot_top {
-    height: 100px;
+    min-height: 100px;
 }
 
 .ms_foot_bottom {
     height: 45px;
 }
+
+
+
+
+
+
+
+
+
+/* REGOLE DI DEBUG DA ELIMINARE */
 
 /* debug rules */
 [class*="col-"] {
@@ -67,31 +81,12 @@ section {
 
 .ms_slot_text {
     height: 200px;
+    background-color: blue;
+    border: solid 2px black;
 }
 
-/* responsive rules */
-@media screen and (max-width: 576px) {
-    
-    /* header */
-
-    /* top bar */
-    .ms_top_bar .col-3 {
-        display: none;
-    }
-
-}
-
-@media screen and (min-width: 577px) {
-    
-    /* header */
-
-    /* top bar */
-    .ms_top_bar .col-1 {
-        display: none;
-    }
-
-    .ms_top_bar .col-3 {
-        display: block;
-    }
-
+.ms_slot_text_footer {
+    height: 50px;
+    background-color: blue;
+    border: solid 2px black;
 }
