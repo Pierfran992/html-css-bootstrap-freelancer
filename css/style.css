@@ -26,7 +26,7 @@ img {
 
 /* header rules */
 .ms_top_bar {
-    height: 75px;
+    height: 70px;
 }
 
 .ms_top_bar a {
@@ -38,11 +38,11 @@ img {
 }
 
 .ms_hero {
-    margin-top: 75px;
+    margin-top: 70px;
 }
 
 .ms_slot_avatar {
-    width: 200px;
+    max-width: 200px;
     margin: 0 auto;
 }
 
@@ -80,58 +80,54 @@ img {
     border-radius: 20px;
 }
 
+.ms_about p {
+    font-size: 1.5rem;
+}
 
-
+.ms_btm_down {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: solid 1px #fff;
+    border-radius: 20px;
+}
 
 /* footer rules */
 .ms_foot_top {
     min-height: 100px;
 }
 
+.ms_slot_text_footer {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ms_slot_text_footer h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.ms_slot_social {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ms_social {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: solid 1px #fff;
+    border-radius: 30px;
+}
+
+p > a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
 .ms_foot_bottom {
     height: 45px;
 }
-
-
-
-
-
-
-
-
-
-/* REGOLE DI DEBUG DA ELIMINARE */
-
-
-/* debug rules
-[class*="col-"] {
-    background-color: blue;
-    height: 50px;
-    border: solid 2px black;
-}
-
-.ms_top_bar [class*="col-"], .ms_foot_bottom .col-3 {
-    height: 20px;
-}
-
-.ms_hero .col-3 {
-    height: 200px;
-}
-
-.ms_slot_img {
-    height: 200px;
-    background-color: blue;
-    border: solid 2px black;
-}
-
-.ms_slot_text {
-    height: 200px;
-    background-color: blue;
-    border: solid 2px black;
-}
-
-.ms_slot_text_footer {
-    height: 50px;
-    background-color: blue;
-    border: solid 2px black;
-} */
