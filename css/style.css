@@ -20,6 +20,10 @@ header, footer, .ms_about {
     background-color: #3a546d;
 }
 
+img {
+    width: 100%;
+}
+
 /* header rules */
 .ms_top_bar {
     height: 75px;
@@ -37,8 +41,44 @@ header, footer, .ms_about {
     margin-top: 75px;
 }
 
-/* main rules */
+.ms_slot_avatar {
+    width: 200px;
+    margin: 0 auto;
+}
 
+.ms_title_hero, .ms_title_section {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.ms_line_star {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms_line {
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.ms_star {
+    font-size: 2rem;
+    margin: 0 20px;
+}
+
+/* main rules */
+.ms_line.ms_color_000000 {
+    background-color: #000000;
+}
+
+.ms_slot_img > img {
+    border-radius: 20px;
+}
 
 
 
@@ -61,6 +101,7 @@ header, footer, .ms_about {
 
 
 /* REGOLE DI DEBUG DA ELIMINARE */
+
 
 /* debug rules
 [class*="col-"] {
