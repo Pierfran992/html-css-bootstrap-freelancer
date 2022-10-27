@@ -37,6 +37,10 @@ img {
     border-color: #fff;
 }
 
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
 .ms_hero {
     margin-top: 70px;
 }
